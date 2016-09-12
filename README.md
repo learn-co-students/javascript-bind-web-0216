@@ -75,7 +75,7 @@ getFriends() {
 Since functions in JS are also objects, we can call `.bind()` on it right away! This solves our scoping issue in the
 exact same way, except that this is much, _much_ cleaner.
 
-As a sidenote, you'll see `.bind()` being used for scoping issues less and less, since ES2015 has introduced the arrow
+As a side note, you'll see `.bind()` being used for scoping issues less and less, since ES2015 has introduced the arrow
 function feature. We can rewrite this in ES2015 using arrows functions like this:
 
 ```js
@@ -99,7 +99,7 @@ function multiplier(a, b) {
 ```
 
 We just noticed that we're doubling values a lot in our codebase. Rather than always typing `multiplier(2, x)`, we can
-use `.bind()` to _partially apply_ our function and create a new one with the first arugment already filled in. That
+use `.bind()` to _partially apply_ our function and create a new one with the first argument already filled in. That
 looks like this:
 
 ```js
@@ -119,7 +119,7 @@ implications. Since `.bind()` creates a new function every time, it's important 
 every time with the same context.
 
 For example, in React, a component can re-render many times. If a new function were created every time the component
-renders, there would be a slight performance impact. This is generally not noticable unless you're working with a super
+renders, there would be a slight performance impact. This is generally not noticeable unless you're working with a super
 large application, but it's worth mentioning!
 
 ## Resources
