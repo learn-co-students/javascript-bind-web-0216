@@ -75,9 +75,14 @@ getFriends() {
 Since functions in JS are also objects, we can call `.bind()` on it right away! This solves our scoping issue in the
 exact same way, except that this is much, _much_ cleaner.
 
+<<<<<<< HEAD
 As a sidenote, you'll see `.bind()` being used for scoping issues less and less, since ES2015 has introduced [arrow
 functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions). We can rewrite
 this in ES2015 using arrows functions like this:
+=======
+As a side note, you'll see `.bind()` being used for scoping issues less and less, since ES2015 has introduced the arrow
+function feature. We can rewrite this in ES2015 using arrows functions like this:
+>>>>>>> 0ed366394b32ebebd9eadd9f9b3fb08c97fa7e50
 
 ```js
 getFriends() {
@@ -100,7 +105,7 @@ function multiplier(a, b) {
 ```
 
 We just noticed that we're doubling values a lot in our codebase. Rather than always typing `multiplier(2, x)`, we can
-use `.bind()` to _partially apply_ our function and create a new one with the first arugment already filled in. That
+use `.bind()` to _partially apply_ our function and create a new one with the first argument already filled in. That
 looks like this:
 
 ```js
