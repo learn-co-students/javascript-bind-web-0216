@@ -9,7 +9,7 @@
 ## What's `bind`?
 ![A bound kid](https://media.giphy.com/media/t2Tr9eyHjlB7i/giphy.gif)
 
-`.bind()` is a method that creates a new function based on an existing function. Wait, what? That doesn't sound very useful. Well, the big thing about `.bind()` is that you can change the _function scope_ (i.e. `this`) for the newly created function. You can also add add any arguments to the new function, allowing for partial application of functions.
+`.bind()` is a method that creates a new function based on an existing function. Wait, what? That doesn't sound very useful. Well, the big thing about `.bind()` is that you can change the _function scope_ (i.e. `this`) for the newly created function. You can also add any arguments to the new function, allowing for partial application of functions.
 
 ## Use cases for bind
 
@@ -110,3 +110,5 @@ For example, in React, a component can re-render many times. If a new function w
 - [MDN: Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 - [MDN: Arrow functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 - [Never Bind in Render](https://ryanfunduk.com/articles/never-bind-in-render/)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-bind'>Javascript bind()</a> on Learn.co and start learning to code for free.</p>
